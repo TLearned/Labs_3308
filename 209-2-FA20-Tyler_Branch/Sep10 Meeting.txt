@@ -1,0 +1,5 @@
+We met at 6pm on a zoom meeting, we then began filling out our project milestone 1 by 
+finalizing our choice to make a encrypting software. We also established a trello where we can
+see our current objectives that need to be completed and a discord which we will be using going
+forward to replace the zoom meetings since they are easier to get messages through without having
+to use an email.

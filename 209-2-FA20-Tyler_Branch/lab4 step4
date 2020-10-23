@@ -1,0 +1,22 @@
+sudo apt install ssmtp
+sudo apt install mailutils
+
+chmod +x ssmtp.conf
+vim ssmtp.conf
+  UseSTARTTLS=YES
+  FromLineOverride=YES
+  root=
+  mailhub=smtp.gmail.com:587
+  AuthUser=username@gmail.com // enter your email address
+  AuthPass=password // enter your gmail password or the app password (see step 1) 
+  
+vim lab4_script.sh
+  #!/bin/bash
+  # Authors : Your Name
+  # Date: 09/XX/2020
+
+chmod +x lab4_script.sh
+./lab4_script.sh
+crontab -e
+  001**/root/backup.sh
+  
